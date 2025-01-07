@@ -1,6 +1,11 @@
-![Preview]()
-
 # Alurafone
+
+<div style="text-align: center;">
+
+![Preview](imagem.png)
+
+</div>
+
 Este repositório contém um teclado numérico similar ao de um telefone. Com esta aplicação, você pode adicionar qualquer número de telefone em um visor.
 
 ## Funcionalidades
