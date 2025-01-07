@@ -1,3 +1,22 @@
+/*  Abra aqui a Documentação do CSS
+    https://developer.mozilla.org/pt-BR/docs/Web/CSS
+
+    Usei um box-sizing: border-box para que a largura e altura de um elemento inclua o padding e a borda, mas não a margem.
+
+    O body é um container flex que centraliza o conteúdo na tela. Justify-content e align-intens no centro da tela e o posicionamento dos elementos do body em coluna.
+
+    O input é um elemento que não tem borda, cor, tamanho e fonte definidos. Isso é para que o input herde as propriedades do body.
+
+    o teclado é um container grid com 3 colunas e 3 linhas. O gap é de 10px. O border-radius é de 30px e o padding de 10px dentro do box.
+
+    O input[type=button] é um elemento com borda arredondada de 20px, cursor pointer,com altura e largura de 80px.
+
+    O input[type=tel] é um elemento com background-color de #cccccc, borda arredondada de 10px, fonte monospace, tamanho de 22px, altura de 40px, margem inferior de 24px, padding de 10px, texto centralizado e largura de 280px.
+
+    O HOVER é um efeito que muda a cor de fundo e a cor do texto ao passar o mouse sobre o botão. Eu coloquei somente no input[type=button] para que o efeito não se aplique ao input[type=tel].
+
+*/
+
 * {
     box-sizing: border-box;
   }
@@ -41,6 +60,11 @@
     height: 80px;
     width: 80px;
   }
+
+  input[type=button]:hover {
+    background-color: #555;
+    color: #fff;
+  }
   
   input[type=tel] {
     background-color: #cccccc;
@@ -53,3 +77,8 @@
     text-align: center;
     width: 280px;
   }
+
+  .ativa {
+    background-color: #555; /* Cor de fundo quando ativo */
+    color: #fff; /* Cor do texto quando ativo */
+}
