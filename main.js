@@ -1,4 +1,4 @@
-/* Documentação do código Javascript
+/* Abra aqui a Documentação desse código Javascript
 
 listaDeTeclas: é uma constante que recebe todos os elementos do tipo input que são do tipo button do documento HTML. a propriedade querySelectorAll é utilizada para selecionar todos os elementos que atendem ao critério passado como argumento. Neste caso, todos os elementos do tipo input que são do tipo button.
 

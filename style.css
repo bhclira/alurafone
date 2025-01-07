@@ -1,6 +1,5 @@
-/*  Abra aqui a Documentação do CSS
-    https://developer.mozilla.org/pt-BR/docs/Web/CSS
-
+/*  Abra aqui a Documentação desse CSS
+    
     Usei um box-sizing: border-box para que a largura e altura de um elemento inclua o padding e a borda, mas não a margem.
 
     O body é um container flex que centraliza o conteúdo na tela. Justify-content e align-intens no centro da tela e o posicionamento dos elementos do body em coluna.
